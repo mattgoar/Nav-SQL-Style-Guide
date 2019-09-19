@@ -5,7 +5,11 @@
 
 * Do
     * Use consistent and descriptive identifiers and names.
+<<<<<<< HEAD
     * Make judicious use of white space and indentation to make code easier to read. *NEWLINES ARE CHEAP, BRAIN POWER IS NOT*
+=======
+    * Make judicious use of white space and indentation to make code easier to read. NEWLINES ARE CHEAP, BRAIN POWER IS NOT
+>>>>>>> 93597d8fa55ddc5e3d75feb4c893c60d9c8dd0e1
 
 * Avoid
     * CamelCase—it is difficult to scan quickly.
