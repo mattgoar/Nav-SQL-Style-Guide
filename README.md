@@ -292,12 +292,6 @@ select
 from users
 ```
 
-### Column name conventions
-
-* Boolean fields should be prefixed with `is_`, `has_`, or `does_`. For example, `is_customer`, `has_unsubscribed`, etc.
-* Date-only fields should be suffixed with `_date`. For example, `report_date`.
-* Date+time fields should be suffixed with `_at`. For example, `created_at`, `posted_at`, etc.
-
 ### Column order conventions
 
 Put the primary key first, followed by foreign keys, then by all other columns. If the table has any system columns (`created_at`, `updated_at`, `is_deleted`, etc.), put those last.
