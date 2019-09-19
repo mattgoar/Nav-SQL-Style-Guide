@@ -671,4 +671,6 @@ from billingdaddy.billing_stored_details
 ## Credits
 
 This style guide was forked from: https://github.com/mattm/sql-style-guide
+Further information taken from: https://www.sqlstyle.guide/
+
 
