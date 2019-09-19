@@ -1,7 +1,7 @@
 
 # Navigant SQL Style Guide
 
-In order to maintain reproducibility and transparency across projects, a SQL style guide can help us achieve that goal. Additionally, adhering to the basic rules in this style guide will improve our ability to share, maintain, and extend our research when working with SQL.
+As SQL is a primarly language within our Analytics team, a SQL style guide is required in order to maintain reproducibility and transparency across teams and projects. Additionally, adhering to the basic rules in this style guide will improve our ability to share, maintain, and extend our research when working with SQL.
 
 This document is written as a manual for anyone working on the Analytics team, but also as a guide for anyone at the company who would like to write clean and clear code that is meant to be shared.
  
