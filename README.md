@@ -4,11 +4,11 @@
 ## General Pricipals
 
 * Do
-** Use consistent and descriptive identifiers and names.
-** Make judicious use of white space and indentation to make code easier to read. NEWLINES ARE CHEAP, BRAIN POWER IS NOT
+    * Use consistent and descriptive identifiers and names.
+    * Make judicious use of white space and indentation to make code easier to read. NEWLINES ARE CHEAP, BRAIN POWER IS NOT
 
 * Avoid
-** CamelCase—it is difficult to scan quickly.
+    * CamelCase—it is difficult to scan quickly.
 
 * Naming Conventions
 ** Ensure the name is unique and does not exist as a reserved keyword.
