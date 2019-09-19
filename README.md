@@ -591,7 +591,7 @@ select
 from events
 ```
 
-### Use CTEs, not subqueries
+### Use CTEs, not subqueries - [LEARN CTEs](http://www.sqlservertutorial.net/sql-server-basics/sql-server-cte/)
 
 Avoid subqueries; CTEs will make your queries easier to read and reason about.
 
