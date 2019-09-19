@@ -294,7 +294,7 @@ from users
 
 ### Column order conventions
 
-Put the primary key first, followed by foreign keys, then by all other columns. If the table has any system columns (`created_at`, `updated_at`, `is_deleted`, etc.), put those last.
+Put the primary key first, followed by [foreign keys](https://www.tutorialspoint.com/sql/sql-foreign-key.htm), then by all other columns. If the table has any system columns (`created_at`, `updated_at`, `is_deleted`, etc.), put those last.
 
 ```sql
 -- Good
