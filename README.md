@@ -7,25 +7,23 @@ This document is written as a manual for anyone working on the Analytics team, b
  
 If you have questions or suggestions for modifications and improvements, please reach out to Matt Goar.
 
-## General Pricipals
+## General Principals
 
 * Do
     * Use consistent and descriptive identifiers and names.
-    * Make judicious use of white space and indentation to make code easier to read. *NEWLINES ARE CHEAP, BRAIN POWER IS NOT*
+    * Make judicious use of white space and indentation to make code easier to read. *NEW LINES ARE CHEAP, BRAIN POWER IS NOT*
 
 
 * Avoid
-    * CamelCase—it is difficult to scan quickly.
+    * [CamelCase](https://en.wikipedia.org/wiki/Camel_case) — it is difficult to scan quickly.  Instead use [Snake_case](https://en.wikipedia.org/wiki/Snake_case)
 
 * Naming Conventions
     * Ensure the name is unique and does not exist as a reserved keyword.
-    * Keep the length to a maximum of 30 bytes—in practice this is 30 characters unless you are using multi-byte character set.
     * Names must begin with a letter and may not end with an underscore.
     * Only use letters, numbers and underscores in names.
     * Avoid the use of multiple consecutive underscores—these can be hard to read.
     * Use underscores where you would naturally include a space in the name (first name becomes first_name).
     * Avoid abbreviations and if you have to use them make sure they are commonly understood.
-
 
 ## Example
 
@@ -671,6 +669,7 @@ from billingdaddy.billing_stored_details
 ## Credits
 
 This style guide was forked from: https://github.com/mattm/sql-style-guide
+
 Further information taken from: https://www.sqlstyle.guide/
 
 
