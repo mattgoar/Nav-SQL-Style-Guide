@@ -1,15 +1,18 @@
 
 # Navigant SQL Style Guide
 
+In order to maintain reproducibility and transparency across projects, a SQL style guide can help us achieve that goal. Additionally, adhering to the basic rules in this style guide will improve our ability to share, maintain, and extend our research when working with SQL.
+
+This document is written as a manual for anyone working on the Analytics team, but also as a guide for anyone at the company who would like to write clean and clear code that is meant to be shared.
+ 
+If you have questions or suggestions for modifications and improvements, please reach out to Matt Goar.
+
 ## General Pricipals
 
 * Do
     * Use consistent and descriptive identifiers and names.
-<<<<<<< HEAD
     * Make judicious use of white space and indentation to make code easier to read. *NEWLINES ARE CHEAP, BRAIN POWER IS NOT*
-=======
-    * Make judicious use of white space and indentation to make code easier to read. NEWLINES ARE CHEAP, BRAIN POWER IS NOT
->>>>>>> 93597d8fa55ddc5e3d75feb4c893c60d9c8dd0e1
+
 
 * Avoid
     * CamelCase—it is difficult to scan quickly.
@@ -400,24 +403,24 @@ group by email
 ```sql
 -- Good
 select
-    users.email,
-    sum(charges.amount) as total_revenue
-from users 
-inner join charges on users.id = charges.user_id
+    Standard.RCM_Accounts.account_id.Discharge_Date,
+    sum(Standard.RCM_Transactions.amount) as total_transactions
+from Standard.RCM_Accounts
+inner join Standard.RCM_Transactions on Standard.RCM_Accounts.account_id = Standard.RCM_Transactions.account_id
 
 -- Good
 select
-    users.email,
-    sum(charges.amount) as total_revenue
-from users users
-inner join charges charges on users.id = charges.user_id
+    accounts.Discharge_Date,
+    sum(transactions.amount) as total_transactions
+from Standard.RCM_Accounts accounts
+inner join Standard.RCM_Transactions transactions on accounts.account_id = transactions.account_id
 
 -- Bad
 select
-    users.email,
-    sum(charges.amount) as total_revenue
-from users u
-inner join charges c on u.id = c.user_id
+    a.Discharge_Date,
+    sum(t.amount) as total_transactions
+from Standard.RCM_Accounts a
+inner join Standard.RCM_Transactions t on a.account_id = t.account_id
 ```
 
 The only exception is when you need to join onto a table more than once and need to distinguish them.
