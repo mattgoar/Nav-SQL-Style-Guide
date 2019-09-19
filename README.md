@@ -1,6 +1,25 @@
 
 # Navigant SQL Style Guide
 
+## General Pricipals
+
+* Do
+** Use consistent and descriptive identifiers and names.
+** Make judicious use of white space and indentation to make code easier to read. NEWLINES ARE CHEAP, BRAIN POWER IS NOT
+
+* Avoid
+** CamelCase—it is difficult to scan quickly.
+
+* Naming Conventions
+** Ensure the name is unique and does not exist as a reserved keyword.
+** Keep the length to a maximum of 30 bytes—in practice this is 30 characters unless you are using multi-byte character set.
+** Names must begin with a letter and may not end with an underscore.
+** Only use letters, numbers and underscores in names.
+** Avoid the use of multiple consecutive underscores—these can be hard to read.
+** Use underscores where you would naturally include a space in the name (first name becomes first_name).
+** Avoid abbreviations and if you have to use them make sure they are commonly understood.
+
+
 ## Example
 
 Here's a non-trivial query to give you an idea of what this style guide looks like in the practice:
