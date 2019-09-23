@@ -12,6 +12,6 @@
 ## Database Schemas
 |Schema   |Reserved for   |Details   |
 |---|---|---|
-|   |   |   |
-|   |   |   |
+| SRC  |   |   |
+| Standard  |   |   |
 |   |   |   |
