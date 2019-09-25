@@ -1,6 +1,9 @@
 # Table Naming Guidelines
 
-## General Guidelines
+If you have questions or suggestions for modifications and improvements, please reach out to Matt Goar.
+
+## General Principals
+
 * Naming Conventions
     * Ensure the name is unique and does not exist as a reserved keyword.
     * Names must begin with a letter and may not end with an underscore.
