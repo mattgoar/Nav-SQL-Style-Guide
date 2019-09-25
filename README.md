@@ -8,6 +8,6 @@ If you have questions or suggestions for modifications and improvements, please 
 
 ## Guides
 
-* [SQL Style Guide]()
-* [Table Naming]()
-* [Code Documentation]()
+* [SQL Style Guide](https://github.com/mattgoar/Nav-SQL-Style-Guide/blob/master/Style-Guide.md)
+* [Table Naming](https://github.com/mattgoar/Nav-SQL-Style-Guide/blob/master/Table-Naming.md)
+* [Code Documentation](https://github.com/mattgoar/Nav-SQL-Style-Guide/blob/master/Documentation-Guidelines.md)

@@ -1,3 +1,5 @@
+[<- Back to main](https://github.com/mattgoar/Nav-SQL-Style-Guide)
+
 # Table Naming Guidelines
 
 If you have questions or suggestions for modifications and improvements, please reach out to Matt Goar.
