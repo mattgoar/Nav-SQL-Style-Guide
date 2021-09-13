@@ -1,4 +1,4 @@
-# Navigant SQL Best Practices Guide
+# SQL Best Practices Guide
 
 As SQL is a primarly language within our Analytics team, best practices are required in order to maintain reproducibility and transparency across teams and projects. Additionally, adhering to our best practices will improve our ability to share, maintain, and extend our research when working with SQL.
 
